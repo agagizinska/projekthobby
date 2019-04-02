@@ -1,0 +1,41 @@
+.scouts_store {
+    padding: 48px;
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.team_Wrapper {
+    margin: 16px 8px;
+    width: 300px;
+    box-sizing: border-box;
+    flex-basis: calc(50% - 16px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: darkgreen;
+    color: aliceblue;
+    padding: 16px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23); 
+
+}
+
+@media screen and (max-width: 750px) {
+    .team_Wrapper {
+        flex-basis: calc(100%-16px);
+    }
+}
+
+.team_poster {
+    width: 80%;
+    max-width: 250px;
+    object-fit: contain; 
+}
+
+.like_button {
+    font-size: 2rem;
+    padding: 8px 32px; 
+    border: none;
+    color: black; 
+    background-color: greenyellow 
+}

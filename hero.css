@@ -1,0 +1,22 @@
+.hero {
+    background-image: url("https://cdn.theatlantic.com/assets/media/img/mt/2017/10/AP_080713015131/lead_720_405.jpg?mod=1533691909");
+    height: 100vh; 
+    /* vh - view hight wysokość ekranu w % */
+    background-size: cover; 
+    background-position: center center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start; 
+
+}
+
+.hero--wrapper {
+    border: 10px solid var(--green-color);
+    text-transform: uppercase;
+    padding: 16px;
+    margin: 8px;
+    max-width: 720px;
+}
+.hero--content {
+    color:var(--green-color); 
+}

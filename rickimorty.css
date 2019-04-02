@@ -1,0 +1,35 @@
+html, body, h1 {
+    margin: 0;
+    padding: 0;
+    font-family:'Margarine', cursive;
+}
+.rickimorty {
+    padding: 2em;
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+.title {
+    border-bottom: 1em seagreen dotted;
+    border-bottom-width: medium;
+    color: darkgreen;
+}
+.rickimorty--content {
+    font-size: 24px;
+    color: darkgreen;
+    display: flex;
+    flex-direction: column;
+    justify-content:center; 
+    align-content: center;
+}
+.character-selector {
+    font-family:'Margarine', cursive;
+    color: darkgreen;
+}
+.character-image {
+    display: flex;
+    justify-items: center;
+    border: 1em green solid; 
+    border-radius: 10%;
+}
+

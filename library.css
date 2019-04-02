@@ -1,0 +1,27 @@
+section {
+    padding: 2em;
+    background-color:white; 
+    }
+
+.fav-item {
+    padding: 16px 32px; 
+    justify-items: flex-start;
+    display: flex; 
+    background-color:rgb(9, 158, 9);
+}
+
+p {
+    color: white;
+    margin-right: 5em;
+    font-size: 2em;
+}
+
+button {
+    background-color: rgb(216, 212, 212) ;
+    border: 3px solid green;
+    border-radius: 64px; 
+    color: black;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 2.5em;
+}

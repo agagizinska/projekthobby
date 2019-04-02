@@ -1,0 +1,15 @@
+ :root {
+     --main-dark-color: #0A3200;
+     --green-color: #B0FE76;
+     --main-green-color: #71F79F;
+     --white-color: #D8DBE2;
+     --blue-color: #2268E4; 
+ }
+@import url('https://fonts.googleapis.com/css?family=Margarine');
+
+
+html, body, ul, h1 {
+    margin: 0;
+    padding: 0;
+    font-family:'Margarine', cursive;
+}
